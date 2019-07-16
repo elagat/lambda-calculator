@@ -1,5 +1,5 @@
 import React from "react";
-import numbers from "./data.js";
+import {numbers} from "./../../data.js";
 
 const NumberButton = () => {
   return (

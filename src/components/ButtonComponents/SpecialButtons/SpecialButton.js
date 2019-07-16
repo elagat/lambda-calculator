@@ -1,5 +1,5 @@
 import React from "react";
-import specials from "./data.js";
+import {specials} from "./../../data.js";
 
 const SpecialButton = () => {
   return (

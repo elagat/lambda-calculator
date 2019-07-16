@@ -1,5 +1,5 @@
 import React from "react";
-import operators from "./data.js";
+import {operators} from "./../../data.js";
 
 const OperatorButton = () => {
   return (
