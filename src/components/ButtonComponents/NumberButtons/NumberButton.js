@@ -8,3 +8,5 @@ const NumberButton = () => {
     </>
   );
 };
+
+const [numberState, setNumberState] = useState(numbers);

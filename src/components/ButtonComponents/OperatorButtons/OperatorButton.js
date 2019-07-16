@@ -8,3 +8,5 @@ const OperatorButton = () => {
     </>
   );
 };
+
+const [operatorState, setOperatorState] = useState(operators);

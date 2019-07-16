@@ -8,3 +8,5 @@ const SpecialButton = () => {
     </>
   );
 };
+
+const [specialState, setSpecialState] = useState(special);
