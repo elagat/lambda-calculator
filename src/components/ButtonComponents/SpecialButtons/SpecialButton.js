@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 const SpecialButton = (props) => {
   return (
-    <button>{props.special}</button>
+    <button>{props.special.char}</button>
   );
 };
 
