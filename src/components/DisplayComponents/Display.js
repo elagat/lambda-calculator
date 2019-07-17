@@ -5,7 +5,7 @@ import Operators from "../ButtonComponents/OperatorButtons/Operators.js";
 import Specials from "../ButtonComponents/SpecialButtons/Specials.js";
 
 const Display = () => {
-  const [displayState, setDisplayState] = useState()
+  // const [displayState, setDisplay] = useState();
   return <div>{/* Display any props data here */}</div>;
 };
 
