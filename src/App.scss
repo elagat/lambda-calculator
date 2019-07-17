@@ -1,5 +1,5 @@
 .container {
-  height: 600px;
+  height: 550px;
   width: 370px;
   border: 1px solid gray;
   border-radius: 7px;
@@ -19,6 +19,10 @@
   border-radius: 40px;
   background-color: darkgray;
   margin: 15px 30px;
+
+  p {
+    text-align: right;
+  }
 }
 
 .container .App {
@@ -58,7 +62,7 @@
     margin-right: 23px;
     margin-bottom: 10px;
     height: 60px;
-    width: 120px;
+    width: 143px;
     border-radius: 40px;
     background-color: darkblue;
     color: white;

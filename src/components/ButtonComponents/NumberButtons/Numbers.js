@@ -2,6 +2,7 @@ import React, {useState} from "react";
 
 //import any components needed
 import NumberButton from "./NumberButton.js";
+import Display from "../../../components/DisplayComponents/Display";
 
 //Import your array data to from the provided data file
 import {numbers} from "../../../data.js";
@@ -16,7 +17,7 @@ const Numbers = () => {
       component matching the name on the provided file. Pass
       it any props needed by the child component*/}
       {numberState.map((number, index) => {
-        return <NumberButton className="eachNumber" number={number} key={index} />
+        return <NumberButton className="eachNumber" number={number} key={index} onclick = { () => setNumberState(number)}/>
       })}
     </div>
   );

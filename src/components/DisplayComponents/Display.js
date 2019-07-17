@@ -5,8 +5,13 @@ import Operators from "../ButtonComponents/OperatorButtons/Operators.js";
 import Specials from "../ButtonComponents/SpecialButtons/Specials.js";
 
 const Display = () => {
-  // const [displayState, setDisplay] = useState();
-  return <div className="display-container">{/* Display any props data here */}</div>;
+  const [displayState, setDisplayState] = useState(0);
+
+  return (
+    <div className="display-container">
+      <p>Hello</p>
+    </div>
+  );
 };
 
 export default Display;
