@@ -17,7 +17,7 @@ const Numbers = () => {
       component matching the name on the provided file. Pass
       it any props needed by the child component*/}
       {numberState.map((number, index) => {
-        return <NumberButton className="eachNumber" number={number} key={index} onclick = { () => setNumberState(number)}/>
+        return <NumberButton className="eachNumber" number={number} key={index} />
       })}
     </div>
   );
