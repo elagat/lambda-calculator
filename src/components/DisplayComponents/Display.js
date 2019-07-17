@@ -6,7 +6,7 @@ import Specials from "../ButtonComponents/SpecialButtons/Specials.js";
 
 const Display = () => {
   // const [displayState, setDisplay] = useState();
-  return <div>{/* Display any props data here */}</div>;
+  return <div className="display-container">{/* Display any props data here */}</div>;
 };
 
 export default Display;

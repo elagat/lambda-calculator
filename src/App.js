@@ -23,9 +23,9 @@ function App() {
       <Display />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+        <Specials />
         <Numbers />
         <Operators />
-        <Specials />
       </div>
     </div>
   );

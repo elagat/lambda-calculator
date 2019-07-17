@@ -1,8 +1,22 @@
 .container {
-  height: 450px;
-  width: 280px;
+  height: 600px;
+  width: 370px;
   border: 1px solid gray;
   border-radius: 7px;
   margin: 50px;
   background-color: red;
+}
+
+.container .logo-container {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.container .display-container {
+  height: 60px;
+  width: auto;
+  border: 1px solid gray;
+  border-radius: 40px;
+  background-color: darkgray;
+  margin: 10px 30px;
 }
