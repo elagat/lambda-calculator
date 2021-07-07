@@ -1,0 +1,100 @@
+.container {
+  height: 550px;
+  width: 370px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  margin: 50px;
+  background-color: red;
+}
+
+.container .logo-container {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.container .display-container {
+  height: 60px;
+  width: auto;
+  border: 1px solid gray;
+  border-radius: 40px;
+  background-color: darkgray;
+  margin: 15px 30px;
+
+  p {
+    padding-right: 20px;
+    text-align: right;
+    font-size: 35px;
+  }
+}
+
+.container .App {
+  width: auto;
+  display: flex;
+}
+
+.container .App .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .App .left .specials-container {
+  margin-left: 30px;
+  display: flex;
+
+  button {
+    margin-right: 23px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+.container .App .left .numbers-container {
+  margin-left: 30px;
+
+  .eachNumber {
+    display: flex;
+  }
+
+  .zero {
+    margin-right: 23px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 143px;
+    border-radius: 40px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+  }
+
+  button {
+    margin-right: 23px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+.container .App .operators-container {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+
+  button {
+    margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    background-color: seagreen;
+    color: white;
+    font-size: 20px;
+  }
+}
